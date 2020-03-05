@@ -7,7 +7,7 @@ package gupao.navbar;
 public class Test {
 
     public static void main(String[] args) {
-        BaseNavbar baseNavbar;
+        Navbar baseNavbar;
         baseNavbar = new BaseNavbar();
         System.out.println("未登录状态导航栏："+baseNavbar.getNavbarName().toString());
         baseNavbar = new MemberNavbarDecorator(baseNavbar);

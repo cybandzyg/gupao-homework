@@ -8,8 +8,8 @@ import java.util.List;
  * @Date: 2020/3/5 11:00
  */
 public class MemberNavbarDecorator extends NavbarDecorator{
-    public MemberNavbarDecorator(BaseNavbar baseNavbar) {
-        super(baseNavbar);
+    public MemberNavbarDecorator(Navbar navbar) {
+        super(navbar);
     }
 
     @Override
